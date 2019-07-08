@@ -29,3 +29,26 @@ body{
 html{
     scrollbar-color: blue;
 }
+.boton {
+	-moz-box-shadow:inset -50px -50px 0px -50px #ffffff;
+	-webkit-box-shadow:inset -50px -50px 0px -50px #ffffff;
+	box-shadow:inset -50px -50px 0px -50px #ffffff;
+	background-color:transparent;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.boton:hover {
+	background-color:transparent;
+}
+.boton:active {
+	position:relative;
+	top:1px;
+}

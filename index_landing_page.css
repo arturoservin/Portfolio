@@ -24,7 +24,8 @@ body{
 }
 .footer{
     color: white;
-    font-family: sans-serif;
+	font-family: sans-serif;
+	text-align: center;
 }
 html{
     scrollbar-color: blue;

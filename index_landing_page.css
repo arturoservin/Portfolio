@@ -50,6 +50,6 @@ html{
 	background-color:transparent;
 }
 .boton:active {
-	position:relative;
+	position: relative;
 	top:1px;
 }

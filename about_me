@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_landing_page.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <a href="portafolio" id="nav_portafolio"><li>Portafolio</li></a>
+                <a href="experiencia" id="nav_experiencia"><li>Experiencia</li></a>
+                <a href="contacto" id="nav_contacto"><li>Contacto</li></a>
+                <a href="about_me"><li>Quien soy?</li></a>
+
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2 class="presentacion">Hola, soy Arturo Servin</h2>
+        <p class="information">aqui va un texto de 300 palabras acerca de mi(recordatorio: tomar el curso de copywriting de platzi)</p>
+    </section>
+    <footer class="footer">Dise;ado por: Arturo Servin 2019</footer>
+</body>
+</html>

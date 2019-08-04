@@ -28,12 +28,12 @@ function dibujoporclick()
   while(l < lineas)
   {
 
-    dibujarlinea("grey", 0, espacio*l, espacio*(l+1), 300);
+    dibujarlinea("grey", 0, espacio*l, espacio*(l+1), ancho);
     l = l + 1;
 
   }
-  dibujarlinea("blue", 1, 1, 1, 300);
-  dibujarlinea("blue", 0, 299, 299, 299);
-  dibujarlinea("red", 0, 0, 300, 0);
-  dibujarlinea("red", 300, 0, 300, 300);
+  dibujarlinea("blue", 1, 1, 1, ancho);
+  dibujarlinea("blue", 0, ancho, ancho, ancho);
+  dibujarlinea("red", 0, 0, ancho, 0);
+  dibujarlinea("red", ancho, 0, ancho, ancho);
 }

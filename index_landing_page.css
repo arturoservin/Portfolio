@@ -4,7 +4,8 @@ body{
 }
 .section {
     background-color: white;
-    font-family:sans-serif;
+	font-family:sans-serif;
+	font-size: 20px;
 }
 .information{
 	background-color: whitesmoke;

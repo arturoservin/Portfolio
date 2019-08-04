@@ -1,5 +1,6 @@
 //******************************************************************************************************************************************* */
 //este codigo esta intencionalmente escrito de una manera altamente descriptiva y cosas que parecen obvias estan detalladamente comentadas
+//todas las condiciones (if) tienen un (else) aun cuando este este vacio excepto cuando esto cause problemas en el codigo
 //no intentes optimizar este codigo. manten el transbordador espacial volando.
 //******************************************************************************************************************************************* */
 //

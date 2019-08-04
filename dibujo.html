@@ -2,20 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>dibujando con canvas</title>
+    <title>Dibujando con canvas</title>
+    <link rel="stylesheet" href="index_landing_page.css"/>
   </head>
   <body>
-    <h1>dibujando con canvas</h1>
-    <p>cuantas lineas quieres?<br/>
+      <header>
+          <nav>
+              <ul class="navigation">
+                  <a href="index.html" id="nav_portafolio"><li>Portafolio</li></a>
+                  <a href="experiencia" id="nav_experiencia"><li>Experiencia</li></a>
+                  <a href="contacto" id="nav_contacto"><li>Contacto</li></a>
+                  <a href="about_me.html"><li>Quien soy?</li></a>
+  
+              </ul>
+          </nav>
+      </header>
+    <h1 class="presentacion">Dibujando con canvas</h1>
+    <div class="section">
+    <p>Cuantas lineas quieres?<br/>
       <input id = "texto_lineas" type="number" name="" value=""/>
-      <input id = "botoncito" value="a darle" type="button">
+      <input id = "botoncito" value="A darle" type="button" class="boton">
 
     </p>
-
-    <canvas width="300" height="300" id="dibujito"></canvas>
-    <p>asi queda tu dibujo</p>
+    </div>
+    <canvas width="1000" height="1000" id="dibujito" class=""></canvas>
+    <p class="section">Asi queda tu dibujo</p>
 <script src=dibujo.js></script>
-<footer style=" size-font:20px;">
+<footer class="footer">
   Creado por Arturo Servin
 </footer>
   </body>

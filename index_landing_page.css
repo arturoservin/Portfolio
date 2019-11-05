@@ -63,3 +63,9 @@ html{
 	background-color: white;
 	font-family: sans-serif;
 }
+#form {
+	background-color: aliceblue;
+	font-family: sans-serif;
+	font-kerning: auto;
+	font-size: 20px;
+}
